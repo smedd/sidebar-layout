@@ -1,0 +1,54 @@
+body {
+  background-color: #EDEFF0;
+  font-family: "Open Sans";
+}
+
+#sidebar {
+  position: fixed;
+  left: 0px;
+  background-color: #384047;
+  top: 0px;
+  bottom: 0px;
+  width: 10%;
+  text-align: center;
+}
+
+#sidebar ul {
+  list-style: none;/* (pour enlever les bullet points)*/
+  padding-left: 0px;
+}
+
+#sidebar li {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#sidebar a {
+  color: #788188;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+#sidebar a:hover {
+  color: white;
+}
+
+#content {
+  width: 80%;
+  padding-left:5%;
+  padding-right:5%;
+  position: relative;
+  left: 10%;
+  padding-top: 3%;
+}
+
+.container-white {
+  background-color: white;
+  padding: 50px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 4px lightgrey;
+  margin-bottom: 70px;
+}
+
+
+
